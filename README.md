@@ -45,7 +45,7 @@ Then click "Download vscode for this computer only"
 ![Wpilib step 4](images/install-vscode.png)
 
 Once installed, download
-the [latest release](https://github.com/jletroui/FrcJavaKoans/releases/download/v2.0/FrcJavaKoans.zip) of the Java
+the [latest release](https://github.com/Raphdf201/FrcJavaKoans/archive/refs/heads/master.zip) of the Java
 Koans.
 
 Then, extract it somewhere on your computer. Go to the folder where you have downloaded the koans, righ-click on the
@@ -422,7 +422,7 @@ Ensuite, clique sur "Download vscode for this computer only"
 ![Wpilib step 4](images/install-vscode.png)
 
 Une fois installé,
-télécharge [la dernière version](https://github.com/jletroui/FrcJavaKoans/releases/download/v2.0/FrcJavaKoans.zip) des
+télécharge [la dernière version](https://github.com/Raphdf201/FrcJavaKoans/archive/refs/heads/master.zip) des
 Koans Java.
 
 Ensuite, décompresse les quelque part sur ton ordinateur. Pour ce faire, va dans le répertoire où tu as téléchargé les
