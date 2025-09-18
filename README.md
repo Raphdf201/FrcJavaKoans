@@ -79,7 +79,7 @@ When you open the Java Koans for the FRC in VS Code, you should see something si
 
 ![VS Code](images/opened_koans.png)
 
-Expand the `src` folder, then right click on the file `src\main\java\EnglishPathToEnlightment.java` and choose
+Expand the `src` folder, then right-click on the file `src\main\java\EnglishPathToEnlightment.java` and choose
 `Run Java`:
 
 ![Run Java](images/run_java.png)
@@ -216,7 +216,7 @@ We will ignore the `public static void` part for now. What comes next is the nam
 All the code chunks in Java have names, allowing to refer to it later, if we want to run that piece of code. Then comes
 parentheses: `()`. This is basically telling Java that `sayHelloInConsole` is a method. And at last, the opening `{` and
 closing `}`. All the code you will write will have to go in between those 2 curly brackets, and nowhere else. If you
-write code outside of the curly brackets of a method, Java will show you an error.
+write code outside the curly brackets of a method, Java will show you an error.
 
 So let's try so solve this first koan. To do it, we have to display "Hello!" in the console. The first tip for doing so
 is:
@@ -304,8 +304,8 @@ from which you can dig for your next steps.
 Once you understand how to program a simple `TimedRobot`, you can come back here and practice with bonus koans you will
 find in `src/main/java/bonuses/english`. These koan series are independant of each other and can be followed in any
 order.
-To run them, right click on the one you are interested, for example `src/main/java/bonuses/english/AboutArrays.java` and
-choose `Run Java` directely on the koans file itself.
+To run them, right-click on the one you are interested, for example `src/main/java/bonuses/english/AboutArrays.java` and
+choose `Run Java` directly on the koans file itself.
 
 <br/>
 
@@ -324,7 +324,7 @@ of the time, about figuring out what little detail have been overlooked. Thus, h
 themselves in the koans' text will help them become more autonomous faster when it will be time to program and debug a
 robot.
 
-### Full curiculum suggestion
+### Full curriculum suggestion
 
 1) Start with the students completing all the initial koan series ("EnglishPathToEnlightment").
 2) Not part of the FRC Java Koans: make them program their first robot with a simple `TimedRobot`. It is suggested to
@@ -369,9 +369,7 @@ Created by a mentor from the [3550 Robotronix team](https://www.instagram.com/35
 
 Heavily inspired by the wonderful [Ruby Koans](https://www.rubykoans.com/).
 
-The Github Codespaces feature is a contribution of `jmcconne10`.
-
-Typos have been fixed by `someonesomething`.
+Typos have been fixed by `someonesomething` and `Raphdf201`.
 
 Many thanks to early testers who gave me feedback: Andy, Noémie, Chenxin, and Dumitru.
 
@@ -389,7 +387,7 @@ Many thanks to early testers who gave me feedback: Andy, Noémie, Chenxin, and D
 - [Aperçu](#aperçu)
 - [Comment commencer avec VS Code](#comment-commencer-avec-vs-code)
 - [Apprendre à programmer avec les Koans Java pour la FRC](#apprendre-à-programmer-avec-les-koans-java-pour-la-frc)
-- [Aide mémoire Java](#aide-mémoire-Java)
+- [Aide-mémoire Java](#aide-mémoire-java)
 - [Et ensuite?](#et-ensuite)
 - [Mentors](#mentors-fr)
 - [Attributions et remerciements](#attributions-et-remerciements)
@@ -408,8 +406,8 @@ Si ce n'est déjà fait, tu vas devoir
 installer [WPILib](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) pour pouvoir exécuter
 les Koans Java pour la FRC.
 
-Premièrement, ouvre le fichier que tu vient de télécharger et clique sur "Ouvrir". Ensuite, exécute "WPILibInstaller.exe"
-Dans la fenêtre qui s'ouvre, clique sur "Informations complémentaires" et ensuite "Exécuter quand même"
+Premièrement, ouvre le fichier que tu viens de télécharger et clique sur "Ouvrir". Ensuite, exécute "WPILibInstaller.exe"
+Dans la fenêtre qui s'ouvre, clique sur "Informations complémentaires" et ensuite "Exécuter quand même".
 
 ![Wpilib step 1](images/install-defender1.png)
 ![Wpilib step 2](images/install-defender2.png)
@@ -437,11 +435,11 @@ Ensuite, ouvre le VSCode du WPILib:
 
 ![Ouvrir VS Code](images/launch_vs_code.png)
 
-Et ouvre le répertoire dans lequel tu as décompressé les Koans (par exemple: `C:\Users\22220000\Documents\src\FrcJavaKoans`)
+Et ouvre le répertoire dans lequel tu as décompressé les Koans (par exemple : `C:\Users\22220000\Documents\src\FrcJavaKoans`)
 
 ![Ouvrir le répertoire dans VS Code](images/open_folder_in_vs_code.png)
 
-Note: VS Code va te demander si tu fais confiance à ce code. Tu vas devoir répondre "oui".
+Note : VS Code va te demander si tu fais confiance à ce code. Tu vas devoir répondre "oui".
 
 Tu es maintenant prêt·e!
 
@@ -452,7 +450,7 @@ koans qui vont t'aider à apprendre à programmer en Java.
 
 ### Demande des koans au maître
 
-Quand tu ouvre les Koans Java pour la FRC dans VS Code, tu devrais voir quelque chose de similaire à ceci:
+Quand tu ouvres les Koans Java pour la FRC dans VS Code, tu devrais voir quelque chose de similaire à ceci:
 
 ![VS Code](images/opened_koans.png)
 
@@ -461,11 +459,11 @@ choisis `Run Java`:
 
 ![Run Java](images/run_java_fr.png)
 
-Note: Windows Defender va peut être te demander si tu autorise l'application à utiliser le réseau. Tu as alors besoin de
+Note : Windows Defender va peut-être te demander si tu autorises l'application à utiliser le réseau. Tu as alors besoin de
 l'autoriser.
 
 Cela va ouvrir ce que l'on appelle un _terminal_ dans le bas de la fenêtre de VS Code, et exécuter les Koans Java pour
-la FRC. Ignore tout le texte cryptique généré par VS Code dans le terminal et concentre toi sur cette partie:
+la FRC. Ignore tout le texte cryptique généré par VS Code dans le terminal et concentre-toi sur cette partie :
 
 ![Premier résultat](images/result1_fr.png)
 
@@ -475,23 +473,23 @@ Le maître des Koans Java te dit beaucoup de choses d'un coup. Alors décomposon
 
 Tout d'abord, il te dit qu'il essaie de t'enseigner `AboutConsoleAndVariables`. Ensuite, il te dit que tu n'as pas
 complété le koan `AboutConsoleAndVariables.sayHelloInConsole`. Ce qui est normal, car tu n'a même pas encore commencé!
-Ensuite, il te montre une boîte étrange appelée `Console`, que l'on va ignorer pour le moment. Tout en bas,il te dit que
+Ensuite, il te montre une boîte étrange appelée `Console`, que l'on va ignorer pour le moment. Tout en bas, il te dit que
 tu peux chercher `sayHelloInConsole` dans le fichier `src/main/java/koans/english/AboutConsoleAndVariables.java`.
 
 ### Ouvrir le fichier du koan
 
-Ouvre ce fichier dans VS Code:
+Ouvre ce fichier dans VS Code :
 
 ![open src/main/java/koans/french/AboutConsoleAndVariables.java](images/open_first_koan_fr.png)
 
-Wow, il y a beaucoup de choses là dedans! Pour comprendre tout ça, nous avons besoin d'apprendre quelques notions de
+Wow, il y a beaucoup de choses là-dedans! Pour comprendre tout ça, nous avons besoin d'apprendre quelques notions de
 Java.
 
 ### Fichiers Java
 
 Tout le code écrit en Java doit aller dans des fichiers avec l'extension `.java`. Le contenu de ces fichiers suit une
-organisation stricte. D'abord, en haut, il y a plusieurs lignes qui aident Java à savoir quels sont les autres fichier
-dont il va avoir besoin pour comprendre celui-ci::
+organisation stricte. D'abord, en haut, il y a plusieurs lignes qui aident Java à savoir quels sont les autres fichiers
+dont il va avoir besoin pour comprendre celui-ci :
 
 ```java
 package koans.french;
@@ -499,7 +497,7 @@ package koans.french;
 import static engine.Helpers.readLine;
 ```
 
-Nous expliquerons en détails ces lignes plus tard, et allons les ignorer pour le moment. Ne t'inquiètes pas, quand tu
+Nous expliquerons en détails ces lignes plus tard, et allons les ignorer pour le moment. Ne t'inquiète pas, quand tu
 auras fini avec les koans, tu vas les comprendre!
 
 ### La classe
@@ -517,13 +515,13 @@ pourquoi le fichier que nous regardons présentement est nommé `AboutConsoleAnd
 
 Tout le code de la classe est compris entre l'accolade ouvrante `{` et la fermante `}` tout à la fin du fichier.
 
-**Note**: en Java, partout où tu dois délimiter des morceaux de code, nous allons écrire ce code entre une accolade
+**Note** : en Java, partout où tu dois délimiter des morceaux de code, nous allons écrire ce code entre une accolade
 ouvrante `{` et une fermante `}`. Cela instruit Java que tout ce qu'il y a entre ces accolades appartient à la même
 chose.
 
 ### Les instructions du koan
 
-Ensuite, nous pouvons voir ces lignes, en vert:
+Ensuite, nous pouvons voir ces lignes, en vert :
 
 ```java
     /**
@@ -559,9 +557,9 @@ de chacun de ses koans.
 
 La première ligne du commentaire te donne le titre du Koan: `# Afficher du texte dans la console`.
 
-Ensuite, tu peux trouver l'objectif du koan en haut du commentaire: `Afficher 'Hello!' dans la console.`. La console est
+Ensuite, tu peux trouver l'objectif du koan en haut du commentaire : `Afficher 'Hello!' dans la console.`. La console est
 la façon la plus simple pour un programme Java d'afficher quelque chose dans un terminal. Tu te souviens de ce qui a été
-affiché lorsque tu as exécuté les koans? Tu as vu ce bout de texte:
+affiché lorsque tu as exécuté les koans ? Tu as vu ce bout de texte :
 
 ```
 Console:
@@ -576,21 +574,21 @@ C'est là que le texte que tu vas afficher dans la console va apparaître.
 Après le but du koan, le maître te donne des indices pour résoudre le koan. Par exemple, il t'explique ici que tu peux
 utiliser l'instruction Java `System.out.println([une valeur])`.
 
-**Note**: quand tu vois dans les instructions du maître des crochets '[' et ']', ce n'est pas pour taper dans le
+**Note** : quand tu vois dans les instructions du maître des crochets '[' et ']', ce n'est pas pour taper dans le
 programme les crochets et ce qu'il y a entre eux. En effet, c'est un moyen pour désigner un espace à remplacer par
 quelque chose d'autre.
 
 Finalement, la dernière section des instructions te montre quel résultat ton code est supposé produire. Attention! Les
 petits détails comme la grammaire et les espaces sont importants!
 
-Lorsque tu essaies de résoudre un koan, prends ton temps pour comprendre toute l'information qui t'es donnée dans les
+Lorsque tu essaies de résoudre un koan, prends ton temps pour comprendre toute l'information qui t'est donnée dans les
 instructions pour te faciliter la tâche.
 
 ### La méthode du koan
 
 Nous arrivons enfin à la partie du fichier où tu vas pouvoir écrire du code en Java! En Java, tout le code qui s'exécute
 doit faire partie d'un "morceau de code" que l'on appelle une méthode. Une méthode n'est rien d'autre qu'un
-mini-programme. Voici la méthode du premier koan:
+mini-programme. Voici la méthode du premier koan :
 
 ```java
     public static void sayHelloInConsole() {
@@ -598,9 +596,9 @@ mini-programme. Voici la méthode du premier koan:
 }
 ```
 
-Nous allons ignorer les mots clefs `public static void` pour l'instant. Ce qui vient après est le nom de la méthode:
+Nous allons ignorer les mots clefs `public static void` pour l'instant. Ce qui vient après est le nom de la méthode :
 `sayHelloInConsole`. Toutes les méthodes ont un nom en Java, ce qui permet d'y faire référence plus tard, si tu veux
-exécuter le code la méthode. Après le nom viennent les parenthèses: `()`. C'est le signe qui dit à Java que
+exécuter le code la méthode. Après le nom viennent les parenthèses : `()`. C'est le signe qui dit à Java que
 `sayHelloInConsole` est une méthode. Et finalment, les fameuses accolades ouvrante `{` et fermante `}`. Tout le code que
 tu vas écrire devra se trouver entre les 2 accolades d'une méthode, et nulle part ailleurs. Si tu écris du code en
 dehors, Java va te montrer une erreur.
@@ -612,7 +610,7 @@ dit:
      * En Java, toutes les instructions de code sur une ligne doivent se terminer avec un ';'.
 ```
 
-Très bien, alors tapons tout de suite un ';' à la fin de la ligne pour ne pas oublier:
+Très bien, alors tapons tout de suite un ';' à la fin de la ligne pour ne pas oublier :
 
 ```java
     public static void sayHelloInConsole() {
@@ -620,14 +618,14 @@ Très bien, alors tapons tout de suite un ';' à la fin de la ligne pour ne pas 
 }
 ```
 
-Le prochain indice nous dit:
+Le prochain indice nous dit :
 
 ```
      * Tu peux utiliser la méthode System.out.println([une valeur]) pour afficher une valeur dans la console.
 ```
 
 Nous savons que nous pouvons utiliser cette commande, et que nous allons devoir remplacer `[some value]` par le texte
-_Hello!_ plus tard. Tapons cette commande sans sa valeur pour le moment:
+_Hello!_ plus tard. Tapons cette commande sans sa valeur pour le moment :
 
 ```java
     public static void sayHelloInConsole() {
@@ -635,13 +633,13 @@ _Hello!_ plus tard. Tapons cette commande sans sa valeur pour le moment:
 }
 ```
 
-Le dernier indice nous explique comment écrire une valeur textuelle:
+Le dernier indice nous explique comment écrire une valeur textuelle :
 
 ```
      * Tu peux dire à Java qu'une valeur est un texte en l'entourant par des guillemets.
 ```
 
-Parfait! Alors plaçons notre valeur dans la commande tapée précédemment:
+Parfait! Alors plaçons notre valeur dans la commande tapée précédemment :
 
 ```java
     public static void sayHelloInConsole() {
@@ -652,7 +650,7 @@ Parfait! Alors plaçons notre valeur dans la commande tapée précédemment:
 ### Redemander son avis au maître
 
 Maintenant que nous avons complété notre koan, demandons au maître ce qu'il en pense. Pour exécuter les koans, fais un
-clic droit sur `FrenchPathToEnlightment.java` et choisis `Run Java`. Tu devrais voir ceci:
+clic droit sur `FrenchPathToEnlightment.java` et choisis `Run Java`. Tu devrais voir ceci :
 
 ![Second result](images/result2_fr.png)
 
@@ -675,19 +673,19 @@ parle de notre progrès et du prochain koan.
 Félicitations! Tu as complété ton premier koan! Tu peux maintenant regarder le koan suivant dans
 `src/main/java/koans/french/AboutConsoleAndVariables.java` et essayer de trouver comment le compléter.
 
-## Aide mémoire Java
+## Aide-mémoire Java
 
 Pour t'aider à retenir les morceaux de syntaxe Java que tu apprends en complétant tes koans, tu peux imprimer une copie
 de l'[Aide mémoire Java](./AideMémoireJava.pdf).
 
 ## Et ensuite?
 
-Une fois avoir complété les koans, tu es prêt·e pour apprendre à programmer un vrai robot. Mykah,
-de [l'équipe 9153 - Bearcat Robotics](https://sites.google.com/lincolnschoolscb.org/9153-bearcat-robotics/home),
-entretient [un excellent recueil de ressources pour la programmation FRC](https://docs.google.com/document/d/1jcBLAyJ3iTbsYSnWMVWqHaK8uywGTaTjF98eY_xxpl0/edit#heading=h.21bclvyus8vm).
+Une fois avoir complété les koans, tu es prêt·e pour apprendre à programmer un vrai robot. Mykah, de
+[l'équipe 9153 - Bearcat Robotics](https://sites.google.com/lincolnschoolscb.org/9153-bearcat-robotics/home), entretient
+[un excellent recueil de ressources pour la programmation FRC](https://docs.google.com/document/d/1jcBLAyJ3iTbsYSnWMVWqHaK8uywGTaTjF98eY_xxpl0/edit#heading=h.21bclvyus8vm).
 Tu pourras sûrement y trouver tes prochains apprentissages.
 
-Un fois que tu comprends comment programmer un simple `TimedRobot`, tu peux revenir ici et continuer à progresser avec
+Une fois que tu comprends comment programmer un simple `TimedRobot`, tu peux revenir ici et continuer à progresser avec
 les koans bonus que tu trouveras dans `src/main/java/bonuses/french`. Ces séries de koans sont indépendantes les unes
 des autres et peuvent être faites dans n'importe quel ordre.
 Pour les faire, choisis celle qui t'intéresse, par exemple `src/main/java/bonuses/french/AboutArrays.java` et choisis
@@ -710,21 +708,21 @@ Nous avons trouvé que les élèves passent à travers le cours plus rapidement,
 mentor ne lui donne pas de solution à ses problèmes. À la place, le ou la mentor peut garder l'élève dans une posture
 active en lui demandant ce qu'iel ne comprend pas dans l'énoncé de l'exercice, ou du message d'erreur, et le / la guider
 dans des stratégies pour comprendre par iel même. La programmation consiste, la plupart du temps, à trouver quel petit
-détail nous avons oublié. En aidant les élèves à trouver les ressources pour résoudre les problèmes eux-même, ils
+détail nous avons oublié. En aidant les élèves à trouver les ressources pour résoudre les problèmes eux-mêmes, ils
 deviennent au final autonomes plus rapidement lorsqu'ils débogueront un programme de robot.
 
 ### Suggestion de curriculum complet
 
-1) Démarrez en faisant compléter à vos élèves la série de koans intiale complète ("FrenchPathToEnlightment").
-2) Non couvert par les FRC Java Koans: faites les programmer leur premier robot, avec un simple `TimedRobot`. Il est
+1) Démarrez en faisant compléter à vos élèves la série de koans initiale complète ("FrenchPathToEnlightment").
+2) Non couvert par les FRC Java Koans : faites les programmer leur premier robot, avec un simple `TimedRobot`. Il est
    recommandé d'avoir un robot avec une simple base différentielle.
 
 * Mode auto basique, faisant avancer le robot à 20% de sa vitesse pendant 1 seconde.
 * Mode téléop faisant contrôler le robot avec un joystick.
 
 3) Les élèves peuvent ensuite suivre le koan bonus `src/main/java/bonuses/french/AboutInterfaces.java`.
-4) Non couvert par les FRC Java Koans: les élève peuvent programmer de nouveau le robot simple, mais cette fois
-   ci [en programmation orientée commandes](https://docs.wpilib.org/fr/stable/docs/software/commandbased/index.html).
+4) Non couvert par les FRC Java Koans : les élève peuvent programmer de nouveau le robot simple, mais cette fois-ci
+[en programmation orientée commandes](https://docs.wpilib.org/fr/stable/docs/software/commandbased/index.html).
 
 Optionnel:
 
@@ -768,5 +766,5 @@ Grand merci aux premiers testeurs qui ont donné leur avis: Andy, Noémie, Chenx
 
 ## License
 
-![CC BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) Cette oeuvre est disponible sous une
+![CC BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) Cette œuvre est disponible sous une
 license [Attribution - Partage dans les Mêmes Conditions 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
