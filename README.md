@@ -1,5 +1,6 @@
-* [![Drapeau Français](images/french_flag.png) Français ](#French)
-* [![English Flag](images/english_flag.png) English ](#English)
+[![Drapeau Français](images/french_flag.png) Français ](#French)
+
+[![English Flag](images/english_flag.png) English ](#English)
 
 ---
 
@@ -59,7 +60,7 @@ Then, open WPILib VSCode:
 
 ![Launch VS Code](images/launch_vs_code.png)
 
-And open the folder in which you extracted the koans (for example, `C:\Users\Jane\Documents\src\FrcJavaKoans`):
+And open the folder in which you extracted the koans (for example, `C:\Users\22220000\Documents\src\FrcJavaKoans`):
 
 ![Open folder in VS Code](images/open_folder_in_vs_code.png)
 
@@ -376,8 +377,8 @@ Many thanks to early testers who gave me feedback: Andy, Noémie, Chenxin, and D
 
 ## License
 
-![CC BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) This work is licensed under
-a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+![CC BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ---
 #### French
@@ -436,7 +437,7 @@ Ensuite, ouvre le VSCode du WPILib:
 
 ![Ouvrir VS Code](images/launch_vs_code.png)
 
-Et ouvre le répertoire dans lequel tu as décompressé les Koans (par exemple: `C:\Users\Jane\Documents\src\FrcJavaKoans`)
+Et ouvre le répertoire dans lequel tu as décompressé les Koans (par exemple: `C:\Users\22220000\Documents\src\FrcJavaKoans`)
 
 ![Ouvrir le répertoire dans VS Code](images/open_folder_in_vs_code.png)
 
