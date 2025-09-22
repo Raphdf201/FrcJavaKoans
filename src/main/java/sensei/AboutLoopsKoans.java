@@ -1,18 +1,15 @@
 package sensei;
 
+import static engine.Assertions.assertKoanMethodIsInvokable;
 import static engine.Assertions.assertNextStdOutLineEquals;
 import static engine.Assertions.assertNoMoreLineInStdOut;
-import static engine.Assertions.assertReturnValueEquals;
-import static engine.Assertions.assertKoanMethodIsInvokable;
+import engine.Koan;
 import static engine.script.Expression.callKoanMethod;
+import engine.text.Localizable;
 import static engine.text.Localizable.global;
 import static engine.text.Localizable.localClass;
-import static sensei.Texts.*;
-
 import java.util.List;
-
-import engine.Koan;
-import engine.text.Localizable;
+import static sensei.Texts.*;
 
 
 public class AboutLoopsKoans {
@@ -174,6 +171,6 @@ public class AboutLoopsKoans {
             .then(
                 assertNextStdOutLineEquals(global("7")),
                 assertNoMoreLineInStdOut()
-            ),
+            )
     );
 }
