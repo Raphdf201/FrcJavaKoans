@@ -117,7 +117,7 @@ public class AboutMoreMethods {
      * - the integer itself otherwise
      * 
      * Warning! Do not recode the computations already coded in the previous method. Instead, reuse it.
-     * 
+     * The method should be a void
      * -------------------------------
      * 
      * Expected result:

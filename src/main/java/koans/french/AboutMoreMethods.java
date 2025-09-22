@@ -117,7 +117,7 @@ public class AboutMoreMethods {
      * - l'entier lui même sinon
      * 
      * Attention! Il ne faut pas refaire les calculs de la méthode précédente. À la place, réutilises-la.
-     * 
+     * La fonction devrait être un void.
      * -------------------------------
      * 
      * Résultat attendu:
