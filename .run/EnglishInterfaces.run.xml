@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="EnglishInterfaces" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="bonuses.english.AboutInterfaces" />
+    <module name="FrcJavaKoans" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
